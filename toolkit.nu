@@ -1,7 +1,5 @@
-def "str normalize" [] {
-    lines
-    | str join "\n"
-    | $in ++ "\n"
+export def main [] {
+    help toolkit
 }
 
 export def get-challenge [challengeId: string] {
@@ -22,6 +20,8 @@ export def get-challenge [challengeId: string] {
     } $in
 }
 
-export def main [] {
-    help toolkit
+def "str normalize" [] {
+    lines
+    | str join "\n"
+    | $in ++ "\n"
 }
