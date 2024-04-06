@@ -1,0 +1,14 @@
+def __init__(self, x, y, z, rotation, color, bounciness, walking_speed, running_speed, health, defense, age, type1, type2):
+    self.x = x
+    self.y = y
+    self.z = z
+    self.rotation = rotation
+    self.color = color
+    self.bounciness = bounciness
+    self.walking_speed = walking_speed
+    self.running_speed = running_speed
+    self.health = health
+    self.defense = defense
+    self.age = age
+    self.type1 = type1
+    self.type2 = type2

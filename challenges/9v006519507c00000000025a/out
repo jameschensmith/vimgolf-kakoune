@@ -1,0 +1,7 @@
+{:item           (get-item)
+ :other-items    (get-other-items)
+ :prev-item      :none
+ :next-item      :none
+ :template-name  "default"
+ :inst           #inst "2023-01-01T22:00:00-00:00"
+ :ident          #uuid "6241d2fa-6048-11ee-8c99-0242ac120002"}}

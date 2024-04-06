@@ -1,0 +1,21 @@
+      # Working with enumerations in Python #
+
+from enum import Enum
+
+class Shake(Enum):
+    VANILLA = 7
+    CHOCOLATE = 4
+    COOKIES = 9
+    MINT = 3
+
+print(type(Shake.MINT))   #   <enum 'Shake'> 
+
+print(Shake.CHOCOLATE.name)               #    CHOCOLATE
+print(Shake.CHOCOLATE.value)                   #     4
+
+print(repr(Shake['COOKIES']))              #  <Shake.COOKIES: 9>
+
+Animal = Enum('Animal', 'ANT BEE CAT DOG')
+
+A = list(Animal); print(A)
+# [<Animal.ANT: 1>, <Animal.BEE: 2>, <Animal.CAT: 3>, <Animal.DOG: 4>]

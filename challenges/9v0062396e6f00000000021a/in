@@ -1,0 +1,1 @@
+def __init__(self, x, y, z, rotation, color, bounciness, walking_speed, running_speed, health, defense, age, type1, type2):
