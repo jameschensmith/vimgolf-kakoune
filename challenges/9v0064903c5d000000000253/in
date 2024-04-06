@@ -1,0 +1,11 @@
+||Host||Server||Windows Version||Aktualisiert||
+|10.80.0.216|80-0-98 veeam Backup Suite_REPLICA|Windows Server 2012 (64-bit)|(x)|
+|10.80.0.217|80-0-98 veeam Backup Suite|Windows Server 2012 (64-bit)|(x)|
+|10.80.0.217|40-0-2-ldap.pci-dev.com|Windows Server 2012 (64-bit)| (x)|
+|10.80.0.216|vldp-178-visual-cron|Windows Server 2012 (64-bit)|(x) |
+|10.80.0.216|vvldp-150-visual-cron-|Windows Server 2012 (64-bit)|(x) |
+|10.80.0.216|vvldp-151-visual-cron-test|Windows Server 2012 (64-bit) |(x) |
+|10.80.0.216|vvldp-168-windows-rdp|Windows Server 2012 (64-bit) |(x) |
+|10.80.0.217|vvldp-181 VisualCron Automation|Windows Server 2016 (64-bit)|(x) |
+|10.80.0.216|vvldp-195-windows-rdp|Windows Server 2012 (64-bit)|(x) |
+|10.80.0.217|vvldp-250-dp-visual-cron|Windows Server 2012 (64-bit)|(x) |
