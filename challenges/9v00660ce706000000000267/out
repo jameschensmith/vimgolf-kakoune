@@ -1,0 +1,33 @@
+force a 0 @ 0
+force b 0 @ 0
+force c 0 @ 0
+
+force a 0 @ 10
+force b 0 @ 10
+force c 1 @ 10
+
+force a 0 @ 20
+force b 1 @ 20
+force c 0 @ 20
+
+force a 0 @ 30
+force b 1 @ 30
+force c 1 @ 30
+
+force a 1 @ 40
+force b 0 @ 40
+force c 0 @ 40
+
+force a 1 @ 50
+force b 0 @ 50
+force c 1 @ 50
+
+force a 1 @ 60
+force b 1 @ 60
+force c 0 @ 60
+
+force a 1 @ 70
+force b 1 @ 70
+force c 1 @ 70
+
+run 80
