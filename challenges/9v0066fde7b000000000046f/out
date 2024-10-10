@@ -1,0 +1,20 @@
+import "time"
+
+type User struct {
+	ID             int       `json:"id" db:"user_id"`
+	Name           string    `json:"name" db:"username"`
+	Email          string    `json:"email" db:"email"`
+	CreatedAt      time.Time `json:"created_at" db:"created_at"`
+	Password       string    `json:"-" db:"password"` // Omit password from JSON serialization
+	Address        string    `json:"address" db:"address"`
+	City           string    `json:"city" db:"city"`
+	State          string    `json:"state" db:"state"`
+	Country        string    `json:"country" db:"country"`
+	ZipCode        string    `json:"zip_code" db:"zip_code"`
+	PhoneNumber    string    `json:"phone_number" db:"phone_number"`
+	ProfilePicture string    `json:"profile_picture" db:"profile_picture"`
+	Roles          []string  `json:"roles" db:"roles"`
+	CreatedAt      time.Time `json:"created_at" db:"created_at"`
+	UpdatedAt      time.Time `json:"updated_at" db:"updated_at"`
+}
+{"user_id", "username", "email", "password", "address", "city", "state", "country", "zip_code", "phone_number", "profile_picture", "roles", "created_at", "updated_at"}
