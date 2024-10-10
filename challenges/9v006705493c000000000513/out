@@ -1,0 +1,22 @@
+case class User(
+  id: Long,
+  username: String,
+  email: String,
+  firstName: String,
+  lastName: String,
+  age: Int,
+  gender: String,
+  phoneNumber: String,
+  address: String,
+  city: String,
+  country: String,
+  postalCode: String,
+  occupation: String,
+  company: String,
+  salary: Double,
+  isActive: Boolean,
+  registrationDate: java.time.LocalDate,
+  lastLoginDate: java.time.LocalDateTime,
+  preferences: Map[String, String],
+  roles: List[String]
+)
